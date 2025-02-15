@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>Game Counter</title>
+    </head>
+    <body>
+        <div id="outside">
+
+            <div class="container">
+                <div class="home-Container">
+                    <div class="one">
+                        <h3>HOME</h3>
+                    </div>
+                    
+                    <div class="two">
+                        <h4 id="homeScore">0</h4>
+                    </div>
+                    
+                    <div class="three">
+                        <button id="PlusOne" onclick="plusOne()">+1</button>
+                        <button id="PlusTwo" onclick="plusTwo()">+2</button>
+                        <button id="PlusThree" onclick="plusThree()">+3</button>
+                    </div>
+                </div>
+                
+                
+                <div>
+                    <div class="home-Container">
+                        <div class="one">
+                            <h3>AWAY</h3>
+                        </div>
+                        
+                        <div class="two">
+                            <h4 id="awayScore">0</h4>
+                        </div>
+                        
+                        <div class="three">
+                            <button id="awayPlusOne" onclick="awayPlusOne()">+1</button>
+                            <button id="awayPlusTwo" onclick="awayPlusTwo()">+2</button>
+                            <button id="awayPlusThree" onclick="awayPlusThree()">+3</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 id="rest" onclick="rest()">REST</h1>
+        <script src="index.js"></script>
+    </body>
+</html>

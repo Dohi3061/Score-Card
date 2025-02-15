@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: "VT323", Geneva, Verdana, sans-serif;
+    background: #eaeaea;
+}
+
+.one h3{
+    font-size: 50px;
+    color: #EEEEEE;
+    padding: 0;
+    margin: 0;
+}
+.two{
+    border-radius: 5px;
+    background: #080001;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two h4{
+    color: #F94F6D;
+    font-size: 90px;
+}
+
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45px;
+    width: 155px;
+}
+
+.three button{
+    background: transparent;
+    font-family: "VT323", Geneva, Verdana, sans-serif;
+    color: #9AABD8;
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 2px;
+
+}
+#rest{
+    display: inline;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    padding: 2px 6px;
+    right: 3vw;
+    bottom: 3vh;
+    background: #F94F6D;
+}
+
+#header{
+    width: 250px;
+    padding: 0;
+    background: #eaeaea;
+    margin: auto;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+#rest:hover{
+    transition: 0.4s;
+    background: #D9082E;
+}
+#rest:active{
+    transition: 0.1s;
+    padding: 5px 10px;
+    background-color: #6982DD;
+}
+button{
+    font-family: "VT323", Geneva, Verdana, sans-serif;
+    
+}
+.home-Container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 275px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#outside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #eaeaea;
+
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    border-radius: 20px;
+}
