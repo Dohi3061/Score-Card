@@ -54,6 +54,7 @@ body {
     right: 3vw;
     bottom: 3vh;
     background: #F94F6D;
+    cursor: pointer; 
 }
 
 #header{
